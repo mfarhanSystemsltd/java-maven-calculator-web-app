@@ -30,7 +30,7 @@ steps:
     effectivePomSkip: false
     sonarQubeRunAnalysis: false
    
-- task: Bash@3
+
 - script: |
     ls
   displayName: 'Run a multi-line script'
