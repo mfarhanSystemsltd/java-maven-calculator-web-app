@@ -33,7 +33,7 @@ steps:
 
 - script: |
     ls
-    cd /surefire-reports/*.xml
+    cd /surefire-reports
     ls 
     ls -l
   displayName: 'Run a multi-line script'
